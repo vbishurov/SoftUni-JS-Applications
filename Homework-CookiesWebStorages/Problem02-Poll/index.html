@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Problem 2 - Poll</title>
+</head>
+<body>
+<h1>You have <span id="timer"></span> seconds</h1>
+
+<form action="" method="post">
+    <ul id="questions">
+        <li id="question1">
+            <header>
+                <h4>First question</h4>
+            </header>
+            <label for="question1answer1" id="question1answer1label">First answer</label>
+            <input name="question1" id="question1answer1" type="radio"/><br/>
+            <label for="question1answer2" id="question1answer2label">Second answer</label>
+            <input name="question1" id="question1answer2" type="radio"/><br/>
+            <label for="question1answer3" id="question1answer3label">Third answer</label>
+            <input name="question1" id="question1answer3" type="radio"/><br/>
+            <label for="question1answer4" id="question1answer4label">Fourth answer</label>
+            <input name="question1" id="question1answer4" type="radio"/>
+        </li>
+        <li id="question2">
+            <header>
+                <h4>Second question</h4>
+            </header>
+            <label for="question2answer1" id="question2answer1label">First answer</label>
+            <input name="question2" id="question2answer1" type="radio"/><br/>
+            <label for="question2answer2" id="question2answer2label">Second answer</label>
+            <input name="question2" id="question2answer2" type="radio"/><br/>
+            <label for="question2answer3" id="question2answer3label">Third answer</label>
+            <input name="question2" id="question2answer3" type="radio"/><br/>
+            <label for="question2answer4" id="question2answer4label">Fourth answer</label>
+            <input name="question2" id="question2answer4" type="radio"/>
+        </li>
+        <li id="question3">
+            <header>
+                <h4>Third question</h4>
+            </header>
+            <label for="question3answer1" id="question3answer1label">First answer</label>
+            <input name="question3" id="question3answer1" type="radio"/><br/>
+            <label for="question3answer2" id="question3answer2label">Second answer</label>
+            <input name="question3" id="question3answer2" type="radio"/><br/>
+            <label for="question3answer3" id="question3answer3label">Third answer</label>
+            <input name="question3" id="question3answer3" type="radio"/><br/>
+            <label for="question3answer4" id="question3answer4label">Fourth answer</label>
+            <input name="question3" id="question3answer4" type="radio"/>
+        </li>
+        <li id="question4">
+            <header>
+                <h4>Fourth question</h4>
+            </header>
+            <label for="question4answer1" id="question4answer1label">First answer</label>
+            <input name="question4" id="question4answer1" type="radio"/><br/>
+            <label for="question4answer2" id="question4answer2label">Second answer</label>
+            <input name="question4" id="question4answer2" type="radio"/><br/>
+            <label for="question4answer3" id="question4answer3label">Third answer</label>
+            <input name="question4" id="question4answer3" type="radio"/><br/>
+            <label for="question4answer4" id="question4answer4label">Fourth answer</label>
+            <input name="question4" id="question4answer4" type="radio"/>
+        </li>
+    </ul>
+    <button id="submit">Submit</button>
+</form>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="timer.js"></script>
+<script src="question.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
