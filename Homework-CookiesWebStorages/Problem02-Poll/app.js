@@ -111,7 +111,7 @@ function showScore() {
         counter += 1;
     });
 
-    $('#score').text($('#score').text() + ' ' + score + ' points.').show();
+    $('#score').text('Your score is: ' + score + ' points.').show();
 
     localStorage.clear();
 }
