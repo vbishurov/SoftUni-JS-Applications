@@ -1,0 +1,12 @@
+<div id="results">
+    <div id="{{objectId}}">{{questionText}}</div>
+    <ul>
+        {{#each answers}}
+        <li>
+            <div class="answer">{{@key}}</div>
+            <div class="percents" style="width:{{#ifCond this}}{{this}}{{/ifCond}}%">{{this}}</div>
+        </li>
+        {{/each}}
+    </ul>
+    <a href="#/" id="backButton">&#8701; Back to Polls</a>
+</div>

@@ -1,0 +1,15 @@
+<ul id="questions">
+    {{#results}}
+    <li>
+        <div id="{{objectId}}">{{questionText}}</div>
+        <form>
+            {{#each answers}}
+            <input type="radio" name="answer{{../objectId}}" id="answer{{../objectId}}{{@index}}" value="{{@key}}">
+            <label for="answer{{../objectId}}{{@index}}">{{@key}}</label>
+            <br>
+            {{/each}}
+            <a href="#/{{objectId}}" id="voteButton" data-id="{{objectId}}">Vote</a>
+        </form>
+    </li>
+    {{/results}}
+</ul>
