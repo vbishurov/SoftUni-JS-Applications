@@ -1,0 +1,9 @@
+<ul id="books">
+    {{#each results}}
+    <li>
+        <a id="book" href="#!/book/{{objectId}}">{{title}} by {{author}}{{#if isbn}}, ISBN: {{isbn}}{{/if}}</a>
+    </li>
+    {{/each}}
+</ul>
+
+<a href="#!/create">Add book</a>
