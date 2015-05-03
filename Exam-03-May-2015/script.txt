@@ -1,0 +1,1 @@
+<script src="scripts/libs/require.js" data-main="scripts/app"></script>
